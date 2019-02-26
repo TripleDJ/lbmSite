@@ -1,0 +1,35 @@
+html {
+  font-size: 10px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.Header {
+  height: 7vh;
+  line-height: 7vh;
+  font-size: 1.3rem;
+  background-color: #820ea9; }
+
+.Header__Container {
+  width: 80%;
+  margin: 0 10%; }
+
+.Header__Left {
+  width: 65%;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Helvetica Neue", sans-serif;
+  letter-spacing: .2px;
+  text-align: center; }
+
+.Header__Left__Info {
+  display: flex;
+  align-items: row;
+  justify-content: space-between; }
+
+.Header__Left__Info__Item {
+  display: block;
+  flex: 0 1 100%;
+  list-style-type: none; }

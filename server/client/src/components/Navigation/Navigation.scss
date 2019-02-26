@@ -1,0 +1,40 @@
+@import '../../css/Setup.scss';
+
+.Navigation {
+    height: 10vh;
+    background-color: $color-white;
+
+    &__Container {
+        width: 80%;
+        margin: 0 10%;
+        display: flex;
+        height: 100%;
+        line-height: 10vh;
+    }
+
+    &__Logo {
+        display: inline-block;
+        width: 20%;
+    }
+
+    &__List {
+
+        display: flex;
+        align-items: row;
+        justify-content: space-between;
+        width: 80%;
+        position: relative;
+
+        font-size: 1.4em;
+        font-family: $font-family--main;
+        font-weight: $font-weight--regular;
+
+        &__Item {
+            display: block;
+            flex: 0 1 100%;
+            list-style-type: none;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+}

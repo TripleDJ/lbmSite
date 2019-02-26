@@ -1,0 +1,36 @@
+@import '../../css/Setup.scss';
+
+.Header {
+
+    height: 7vh;
+    line-height: 7vh;
+    font-size: 1.3rem;
+    background-color: $color-purple--primary;
+
+    &__Container {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    &__Left {
+        
+        width: 65%;
+        color: $color-white;
+        font-weight: $font-weight--bolder;
+        font-family: $font-family--main;
+        letter-spacing: .2px;
+        text-align: center;
+
+        &__Info {
+            display: flex;
+            align-items: row;
+            justify-content: space-between;
+
+            &__Item {
+                display: block;
+                flex: 0 1 100%;
+                list-style-type: none;
+            }
+        }
+    }
+}

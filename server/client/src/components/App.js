@@ -1,9 +1,13 @@
-import React from "react";
+import React from 'react';
+import './App.scss';
+import Header from './Header/Header';
+import Navigation from './Navigation/Navigation'
 
 const App = () => {
   return (
     <div>
-      Hello world from React app!
+      <Header />
+      <Navigation />
     </div>
   );
 };
